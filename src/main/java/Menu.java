@@ -8,4 +8,13 @@ public class Menu {
         System.out.println("===========================");
         System.out.println("Informe a opção desejada: ");
     }
+
+    public void tipoCliente(){
+        System.out.println("\n=== TIPO DO CLIENTE ===");
+        System.out.println(" 1 - VIP");
+        System.out.println(" 2 - REGULAR");
+        System.out.println(" 3 - NOVO");
+        System.out.println(" 0 - Para voltar ao menu anterior");
+        System.out.println("Informe o tipo do cliente: ");
+    }
 }
